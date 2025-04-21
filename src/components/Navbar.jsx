@@ -12,7 +12,7 @@ const Navbar = () => {
       <p>Posting date and time</p>
    </div>
    <div className="navTitle"></div>
- 
+   
     <div className="image-container">
     < img className='background-image' src="navBg.jpg" alt="no imgae" />
       <div className="overlay-text">
