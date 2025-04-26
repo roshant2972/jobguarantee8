@@ -5,18 +5,15 @@ import CardView from './components/CardView.jsx'
 import Adds from './components/Adds.jsx'
 import Footer from './components/Footer.jsx'
 import './App.css'
+import Main from './components/Main.jsx'
+import Home from './pages/Home.jsx'
 
 const App = () => {
   return <>
   
    
-  <Navbar/>
-  <Adds/>
+   <Home/>
 
-  {/* //CardView contains the ColoredButton which contain whatsApp & Telegram button*/}
-  <CardView/>
-
-  <Footer/>
   
   </>
 }
