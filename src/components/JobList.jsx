@@ -59,7 +59,7 @@ const JobList = () => {
       )}
 
       {/* Pagination buttons */}
-      <div style={{ marginTop: '20px' }}>
+      <div className='pagination'>
         <button
           onClick={() => setCurrentPage((prev) => prev - 1)}
           disabled={currentPage === 1}

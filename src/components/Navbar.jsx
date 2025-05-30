@@ -9,7 +9,7 @@ const Navbar = () => {
    
   <nav className='navbar'>
    <div className="navdate">
-      <p>Posting date and time</p>
+     
    </div>
    <div className="navTitle"></div>
    
